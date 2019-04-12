@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#111111"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="335dp"
+        android:layout_height="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="178dp"
+
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Enter Player Name"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="154dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="163dp"
+        android:text="Play"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="254dp" />
+</RelativeLayout>
